@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import ResponseBox from "./ResponseBox";
+import ResponseBox from "./responseBox";
 
 function VoiceAssistant() {
   const [response, setResponse] = useState("");
