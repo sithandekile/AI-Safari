@@ -1,8 +1,11 @@
 import React from "react";
 import VoiceAssistant from "./components/voiceAssistant";
+import { Navbar } from "./components/navbar";
 
 function App() {
   return (
+    <>
+    <Navbar/>
     <div className="min-h-screen bg-slate-900 text-white flex flex-col items-center justify-center">
       
       <h1 className="text-3xl font-bold mb-6 text-center">
@@ -11,7 +14,8 @@ function App() {
 
       <VoiceAssistant />
 
-    </div>
+    </div> 
+     </>
   );
 }
 
